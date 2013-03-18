@@ -1,0 +1,96 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.936 ns
+From           : adr[11]
+To             : latch_14:inst4|lpm_latch:lpm_latch_component|latches[11]
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 8.961 ns
+From           : latch_14:inst4|lpm_latch:lpm_latch_component|latches[0]
+To             : tmp[0]
+From Clock     : ctrl[0]
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.179 ns
+From           : ctrl[1]
+To             : data[6]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -0.037 ns
+From           : adr[4]
+To             : latch_14:inst4|lpm_latch:lpm_latch_component|latches[4]
+From Clock     : --
+To Clock       : ctrl[0]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'ctrl[0]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 112.36 MHz ( period = 8.900 ns )
+From           : rom_mem:inst|altsyncram:altsyncram_component|altsyncram_jr71:auto_generated|q_a[1]
+To             : latch_8:inst8|lpm_latch:lpm_latch_component|latches[1]
+From Clock     : ctrl[0]
+To Clock       : ctrl[0]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 112.36 MHz ( period = 8.900 ns )
+From           : rom_mem:inst|altsyncram:altsyncram_component|altsyncram_jr71:auto_generated|q_a[1]
+To             : latch_8:inst8|lpm_latch:lpm_latch_component|latches[1]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Hold: 'clk'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : latch_14:inst4|lpm_latch:lpm_latch_component|latches[9]
+To             : rom_mem:inst|altsyncram:altsyncram_component|altsyncram_jr71:auto_generated|ram_block1a4~porta_address_reg9
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 22
+
+Type           : Clock Hold: 'ctrl[0]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : latch_14:inst4|lpm_latch:lpm_latch_component|latches[9]
+To             : rom_mem:inst|altsyncram:altsyncram_component|altsyncram_jr71:auto_generated|ram_block1a4~porta_address_reg9
+From Clock     : ctrl[0]
+To Clock       : ctrl[0]
+Failed Paths   : 22
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 44
+
+--------------------------------------------------------------------------------------
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="KatPro">
+		<CBX_INST_ENTRY INSTANCE_NAME="|rom|bus_14_to_10:inst10|const_256:inst12|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_8k6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rom|bus_14_to_10:inst10|sub_addr:inst11|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_snh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rom|rom_mem:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_jr71.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

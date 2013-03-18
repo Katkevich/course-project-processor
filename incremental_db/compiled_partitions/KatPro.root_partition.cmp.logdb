@@ -1,0 +1,9 @@
+v1
+RAM_PACKING,0,M4K,4,4,TrueDual,0,3,10000000,rom_mem:inst|altsyncram:altsyncram_component|altsyncram_jr71:auto_generated|q_a[7],
+RAM_PACKING,0,M4K,4,4,TrueDual,0,2,10000000,rom_mem:inst|altsyncram:altsyncram_component|altsyncram_jr71:auto_generated|q_a[6],
+RAM_PACKING,0,M4K,4,4,TrueDual,0,1,10000000,rom_mem:inst|altsyncram:altsyncram_component|altsyncram_jr71:auto_generated|q_a[5],
+RAM_PACKING,0,M4K,4,4,TrueDual,0,0,10000000,rom_mem:inst|altsyncram:altsyncram_component|altsyncram_jr71:auto_generated|q_a[4],
+RAM_PACKING,1,M4K,4,4,TrueDual,0,3,10000000,rom_mem:inst|altsyncram:altsyncram_component|altsyncram_jr71:auto_generated|q_a[3],
+RAM_PACKING,1,M4K,4,4,TrueDual,0,2,10000000,rom_mem:inst|altsyncram:altsyncram_component|altsyncram_jr71:auto_generated|q_a[2],
+RAM_PACKING,1,M4K,4,4,TrueDual,0,1,10000000,rom_mem:inst|altsyncram:altsyncram_component|altsyncram_jr71:auto_generated|q_a[1],
+RAM_PACKING,1,M4K,4,4,TrueDual,0,0,10000000,rom_mem:inst|altsyncram:altsyncram_component|altsyncram_jr71:auto_generated|q_a[0],
