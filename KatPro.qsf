@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY rom
+set_global_assignment -name TOP_LEVEL_ENTITY gpr
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:39:53  MARCH 18, 2013"
 set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
@@ -49,15 +49,27 @@ set_global_assignment -name HEX_FILE rom/rom_data.hex
 set_global_assignment -name QIP_FILE rom/rom_mem.qip
 set_global_assignment -name BDF_FILE rom/bus_14_to_10.bdf
 set_global_assignment -name QIP_FILE common/latch_8.qip
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
-set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
 set_global_assignment -name VECTOR_WAVEFORM_FILE rom/rom.vwf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE rom/rom.vwf
 set_global_assignment -name SIMULATION_MODE FUNCTIONAL
 set_global_assignment -name QIP_FILE common/sub_addr.qip
 set_global_assignment -name QIP_FILE rom/const_256.qip
 set_global_assignment -name QIP_FILE common/latch_14.qip
 set_global_assignment -name QIP_FILE common/switch_singl_8.qip
+set_global_assignment -name ADD_DEFAULT_PINS_TO_SIMULATION_OUTPUT_WAVEFORMS OFF
+set_global_assignment -name BDF_FILE ram/ram.bdf
+set_global_assignment -name HEX_FILE ram/ram.hex
+set_global_assignment -name QIP_FILE ram/const_1024.qip
+set_global_assignment -name QIP_FILE common/switch_mult_8.qip
+set_global_assignment -name QIP_FILE common/switch_singl_14.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE ram/ram.vwf
+set_global_assignment -name BDF_FILE gpr/gpr.bdf
+set_global_assignment -name QIP_FILE common/decoder_4to10.qip
+set_global_assignment -name QIP_FILE common/latch_4.qip
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name VECTOR_WAVEFORM_FILE gpr/gpr.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE gpr/gpr.vwf
+set_global_assignment -name BDF_FILE gpr/gpr_item.bdf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
