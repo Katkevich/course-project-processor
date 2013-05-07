@@ -173,10 +173,11 @@ set_global_assignment -name QIP_FILE common/latch_8_zero_init.qip
 set_global_assignment -name QIP_FILE common/latch_4_zero_init.qip
 set_global_assignment -name BDF_FILE cache/__latch_test.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE cache/__latch_test.vwf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE cache/cache.vwf
 set_global_assignment -name BDF_FILE common/D_TR.bdf
 set_global_assignment -name BDF_FILE common/parall_reg_8.bdf
 set_global_assignment -name SOURCE_FILE cache_stable_versions/cache_v1.0
+set_global_assignment -name BDF_FILE cache/dirty_bit.bdf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE cache/cache.vwf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
