@@ -1108,8 +1108,10 @@ aeb
 3
 }
 # hierarchies {
-compare_8_eq:inst185|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
+compare_8_eq:inst170|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
 cache_row:inst71|compare_8_eq:inst49|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
+compare_8_eq:inst185|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
+compare_8_eq:inst171|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
 load_flush_enable_signals:inst227|compare_8_eq:inst128|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
 load_flush_enable_signals:inst227|compare_8_eq:inst130|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
 load_flush_enable_signals:inst227|compare_8_eq:inst127|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
@@ -1125,19 +1127,17 @@ load_flush_enable_signals:inst227|compare_8_eq:inst170|lpm_compare:lpm_compare_c
 load_flush_enable_signals:inst227|compare_8_eq:inst172|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
 load_flush_enable_signals:inst227|compare_8_eq:inst168|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
 load_flush_enable_signals:inst227|compare_8_eq:inst183|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
+compare_8_eq:inst173|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
+compare_8_eq:inst169|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
 cache_row:inst73|compare_8_eq:inst49|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
 other_enable_signals:inst236|compare_8_eq:inst126|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
 other_enable_signals:inst236|compare_8_eq:inst121|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
 other_enable_signals:inst236|compare_8_eq:inst119|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
 cache_row:inst75|compare_8_eq:inst49|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
 cache_row:inst74|compare_8_eq:inst49|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
-compare_8_eq:inst171|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
-compare_8_eq:inst173|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
-compare_8_eq:inst169|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
-compare_8_eq:inst170|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
-compare_8_eq:inst172|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
 compare_8_eq:inst174|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
 compare_8_eq:inst194|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
+compare_8_eq:inst172|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated
 }
 # macro_sequence
 
@@ -3464,8 +3464,10 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-compare_8_eq:inst185
+compare_8_eq:inst170
 cache_row:inst71|compare_8_eq:inst49
+compare_8_eq:inst185
+compare_8_eq:inst171
 load_flush_enable_signals:inst227|compare_8_eq:inst128
 load_flush_enable_signals:inst227|compare_8_eq:inst130
 load_flush_enable_signals:inst227|compare_8_eq:inst127
@@ -3481,19 +3483,17 @@ load_flush_enable_signals:inst227|compare_8_eq:inst170
 load_flush_enable_signals:inst227|compare_8_eq:inst172
 load_flush_enable_signals:inst227|compare_8_eq:inst168
 load_flush_enable_signals:inst227|compare_8_eq:inst183
+compare_8_eq:inst173
+compare_8_eq:inst169
 cache_row:inst73|compare_8_eq:inst49
 other_enable_signals:inst236|compare_8_eq:inst126
 other_enable_signals:inst236|compare_8_eq:inst121
 other_enable_signals:inst236|compare_8_eq:inst119
 cache_row:inst75|compare_8_eq:inst49
 cache_row:inst74|compare_8_eq:inst49
-compare_8_eq:inst171
-compare_8_eq:inst173
-compare_8_eq:inst169
-compare_8_eq:inst170
-compare_8_eq:inst172
 compare_8_eq:inst174
 compare_8_eq:inst194
+compare_8_eq:inst172
 }
 # lmf
 |quartus|quartus|lmf|maxplus2.lmf
@@ -3627,8 +3627,10 @@ AeB
 3
 }
 # hierarchies {
-compare_8_eq:inst185|lpm_compare:lpm_compare_component
+compare_8_eq:inst170|lpm_compare:lpm_compare_component
 cache_row:inst71|compare_8_eq:inst49|lpm_compare:lpm_compare_component
+compare_8_eq:inst185|lpm_compare:lpm_compare_component
+compare_8_eq:inst171|lpm_compare:lpm_compare_component
 load_flush_enable_signals:inst227|compare_8_eq:inst128|lpm_compare:lpm_compare_component
 load_flush_enable_signals:inst227|compare_8_eq:inst130|lpm_compare:lpm_compare_component
 load_flush_enable_signals:inst227|compare_8_eq:inst127|lpm_compare:lpm_compare_component
@@ -3644,19 +3646,17 @@ load_flush_enable_signals:inst227|compare_8_eq:inst170|lpm_compare:lpm_compare_c
 load_flush_enable_signals:inst227|compare_8_eq:inst172|lpm_compare:lpm_compare_component
 load_flush_enable_signals:inst227|compare_8_eq:inst168|lpm_compare:lpm_compare_component
 load_flush_enable_signals:inst227|compare_8_eq:inst183|lpm_compare:lpm_compare_component
+compare_8_eq:inst173|lpm_compare:lpm_compare_component
+compare_8_eq:inst169|lpm_compare:lpm_compare_component
 cache_row:inst73|compare_8_eq:inst49|lpm_compare:lpm_compare_component
 other_enable_signals:inst236|compare_8_eq:inst126|lpm_compare:lpm_compare_component
 other_enable_signals:inst236|compare_8_eq:inst121|lpm_compare:lpm_compare_component
 other_enable_signals:inst236|compare_8_eq:inst119|lpm_compare:lpm_compare_component
 cache_row:inst75|compare_8_eq:inst49|lpm_compare:lpm_compare_component
 cache_row:inst74|compare_8_eq:inst49|lpm_compare:lpm_compare_component
-compare_8_eq:inst171|lpm_compare:lpm_compare_component
-compare_8_eq:inst173|lpm_compare:lpm_compare_component
-compare_8_eq:inst169|lpm_compare:lpm_compare_component
-compare_8_eq:inst170|lpm_compare:lpm_compare_component
-compare_8_eq:inst172|lpm_compare:lpm_compare_component
 compare_8_eq:inst174|lpm_compare:lpm_compare_component
 compare_8_eq:inst194|lpm_compare:lpm_compare_component
+compare_8_eq:inst172|lpm_compare:lpm_compare_component
 }
 # macro_sequence
 
@@ -5178,8 +5178,8 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-load_flush_enable_signals:inst227|const_32:inst167
 const_32:inst186
+load_flush_enable_signals:inst227|const_32:inst167
 const_32:inst195
 }
 # lmf
@@ -5243,8 +5243,8 @@ result0
 3
 }
 # hierarchies {
-load_flush_enable_signals:inst227|const_32:inst167|lpm_constant:lpm_constant_component
 const_32:inst186|lpm_constant:lpm_constant_component
+load_flush_enable_signals:inst227|const_32:inst167|lpm_constant:lpm_constant_component
 const_32:inst195|lpm_constant:lpm_constant_component
 }
 # macro_sequence
@@ -7738,8 +7738,8 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-other_enable_signals:inst236|const_17:inst156
 const_17:inst162
+other_enable_signals:inst236|const_17:inst156
 }
 # lmf
 |quartus|quartus|lmf|maxplus2.lmf
@@ -7802,8 +7802,8 @@ result0
 3
 }
 # hierarchies {
-other_enable_signals:inst236|const_17:inst156|lpm_constant:lpm_constant_component
 const_17:inst162|lpm_constant:lpm_constant_component
+other_enable_signals:inst236|const_17:inst156|lpm_constant:lpm_constant_component
 }
 # macro_sequence
 
@@ -8112,8 +8112,8 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-other_enable_signals:inst236|const_65:inst7
 const_65:inst187
+other_enable_signals:inst236|const_65:inst7
 const_65:inst196
 }
 # lmf
@@ -8177,8 +8177,8 @@ result0
 3
 }
 # hierarchies {
-other_enable_signals:inst236|const_65:inst7|lpm_constant:lpm_constant_component
 const_65:inst187|lpm_constant:lpm_constant_component
+other_enable_signals:inst236|const_65:inst7|lpm_constant:lpm_constant_component
 const_65:inst196|lpm_constant:lpm_constant_component
 }
 # macro_sequence
@@ -11270,12 +11270,12 @@ aclr
 # entity
 cache_row
 # storage
-db|KatPro.(1).cnf
-db|KatPro.(1).cnf
+db|KatPro.(175).cnf
+db|KatPro.(175).cnf
 # case_insensitive
 # source_file
 cache|cache_row.bdf
-f728e23941e6b345bc1547942f41afa
+d3d8ae9e0136ebfa5ed8d99e3e23ddc
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -11291,14 +11291,81 @@ cache_row:inst74
 
 # end
 # entity
+latch_1_aclr
+# storage
+db|KatPro.(183).cnf
+db|KatPro.(183).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+common|latch_1_aclr.vhd
+7fc50ef6354942fee763846fba33826
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# lmf
+|quartus|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_latch
+# storage
+db|KatPro.(184).cnf
+db|KatPro.(184).cnf
+# case_insensitive
+# source_file
+|quartus|quartus|libraries|megafunctions|lpm_latch.tdf
+feb3ba5fa7dba92affcaef4afca532
+7
+# user_parameter {
+LPM_WIDTH
+1
+PARAMETER_SIGNED_DEC
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+}
+# used_port {
+q0
+-1
+3
+gate
+-1
+3
+data0
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
 cache
 # storage
-db|KatPro.(175).cnf
-db|KatPro.(175).cnf
+db|KatPro.(1).cnf
+db|KatPro.(1).cnf
 # case_insensitive
 # source_file
 cache|cache.bdf
-f732a8f7a3e3282d564c177220e014de
+b3eed37fc1da2d071135f9cb8b91681
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
