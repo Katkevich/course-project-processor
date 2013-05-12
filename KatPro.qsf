@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY cache
+set_global_assignment -name TOP_LEVEL_ENTITY control_block
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:39:53  MARCH 18, 2013"
 set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
@@ -177,11 +177,34 @@ set_global_assignment -name BDF_FILE common/D_TR.bdf
 set_global_assignment -name BDF_FILE common/parall_reg_8.bdf
 set_global_assignment -name SOURCE_FILE cache_stable_versions/cache_v1.0
 set_global_assignment -name BDF_FILE cache/dirty_bit.bdf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE cache/cache.vwf
+set_global_assignment -name QIP_FILE common/latch_1_aclr.qip
+set_global_assignment -name BDF_FILE cache_stable_versions/cache_all_pins.bdf
+set_global_assignment -name BDF_FILE control_block/control_block.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE control_block/control_block.vwf
+set_global_assignment -name QIP_FILE common/latch_1_zero_state.qip
+set_global_assignment -name QIP_FILE common/latch_1_zs.qip
+set_global_assignment -name BDF_FILE control_block/reference_signals.bdf
+set_global_assignment -name BDF_FILE control_block/__ctrl_test.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE control_block/__ctrl_test.vwf
+set_global_assignment -name HEX_FILE control_block/ram_mem_file.hex
+set_global_assignment -name BDF_FILE ram/impulse.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE ram/impulse.vwf
+set_global_assignment -name BDF_FILE common/D_TR_STATIC.bdf
+set_global_assignment -name HEX_FILE control_block/_RAM.hex
+set_global_assignment -name HEX_FILE control_block/_RAM_MAX.hex
+set_global_assignment -name HEX_FILE ram/ram_mem.hex
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE control_block/control_block.vwf
+set_global_assignment -name QIP_FILE common/const_3_2b.qip
+set_global_assignment -name QIP_FILE common/const_43.qip
+set_global_assignment -name QIP_FILE common/mux_14.qip
+set_global_assignment -name QIP_FILE common/const_0_14b.qip
+set_global_assignment -name QIP_FILE common/const_44.qip
+set_global_assignment -name QIP_FILE common/counter_8_aset_sclr.qip
+set_global_assignment -name BDF_FILE control_block/command_decode.bdf
+set_global_assignment -name BDF_FILE control_block/parse_input_words.bdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
-set_global_assignment -name QIP_FILE common/latch_1_aclr.qip
-set_global_assignment -name BDF_FILE cache_stable_versions/cache_all_pins.bdf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name QIP_FILE common/const_0_4b.qip

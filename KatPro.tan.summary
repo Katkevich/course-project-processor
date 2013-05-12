@@ -2,35 +2,345 @@
 Timing Analyzer Summary
 --------------------------------------------------------------------------------------
 
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 7.758 ns
+From           : cpu_addr[2]
+To             : latch_3:inst182|lpm_latch:lpm_latch_component|latches[0]
+From Clock     : --
+To Clock       : ctrl[3]
+Failed Paths   : 0
+
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 5.248 ns
-From           : counter_2:inst60|lpm_counter:lpm_counter_component|cntr_4ai:auto_generated|safe_q[0]
-To             : out
-From Clock     : en
+Actual Time    : 50.517 ns
+From           : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[1]
+To             : address_bus[11]
+From Clock     : clk
 To Clock       : --
 Failed Paths   : 0
 
-Type           : Clock Setup: 'en'
+Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
-From           : counter_2:inst60|lpm_counter:lpm_counter_component|cntr_4ai:auto_generated|safe_q[0]
-To             : counter_2:inst60|lpm_counter:lpm_counter_component|cntr_4ai:auto_generated|safe_q[0]
-From Clock     : en
-To Clock       : en
+Actual Time    : 10.781 ns
+From           : ctrl[0]
+To             : cpu_data_out[7]
+From Clock     : --
+To Clock       : --
 Failed Paths   : 0
 
-Type           : Clock Setup: 'set_bit'
+Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
-From           : counter_2:inst60|lpm_counter:lpm_counter_component|cntr_4ai:auto_generated|safe_q[0]
-To             : counter_2:inst60|lpm_counter:lpm_counter_component|cntr_4ai:auto_generated|safe_q[0]
-From Clock     : set_bit
-To Clock       : set_bit
+Actual Time    : 37.672 ns
+From           : cpu_addr[12]
+To             : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : --
+To Clock       : clk
 Failed Paths   : 0
+
+Type           : Clock Setup: 'clk'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 11.03 MHz ( period = 90.636 ns )
+From           : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_count:inst|counter_8_async:inst1|lpm_counter:lpm_counter_component|cntr_uoi:auto_generated|safe_q[0]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'ctrl[3]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 22.42 MHz ( period = 44.603 ns )
+From           : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : latch_1:inst43|lpm_latch:lpm_latch_component|latches[0]
+From Clock     : ctrl[3]
+To Clock       : ctrl[3]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'cpu_addr[13]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 25.79 MHz ( period = 38.776 ns )
+From           : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst68|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[13]
+To Clock       : cpu_addr[13]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'cpu_addr[2]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 25.83 MHz ( period = 38.722 ns )
+From           : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst66|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[2]
+To Clock       : cpu_addr[2]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'cpu_addr[12]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 25.93 MHz ( period = 38.564 ns )
+From           : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst68|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[12]
+To Clock       : cpu_addr[12]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'ctrl[0]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 25.97 MHz ( period = 38.505 ns )
+From           : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst66|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : ctrl[0]
+To Clock       : ctrl[0]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'cpu_addr[3]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 26.01 MHz ( period = 38.441 ns )
+From           : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst66|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[3]
+To Clock       : cpu_addr[3]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'cpu_addr[8]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 26.03 MHz ( period = 38.421 ns )
+From           : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst66|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[8]
+To Clock       : cpu_addr[8]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'cpu_addr[6]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 26.03 MHz ( period = 38.421 ns )
+From           : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst66|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[6]
+To Clock       : cpu_addr[6]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'cpu_addr[4]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 26.03 MHz ( period = 38.421 ns )
+From           : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst66|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[4]
+To Clock       : cpu_addr[4]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'cpu_addr[9]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 26.03 MHz ( period = 38.421 ns )
+From           : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst66|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[9]
+To Clock       : cpu_addr[9]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'cpu_addr[7]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 26.03 MHz ( period = 38.421 ns )
+From           : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst66|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[7]
+To Clock       : cpu_addr[7]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'cpu_addr[5]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 26.03 MHz ( period = 38.421 ns )
+From           : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst66|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[5]
+To Clock       : cpu_addr[5]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'cpu_addr[11]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 26.31 MHz ( period = 38.015 ns )
+From           : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst67|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[11]
+To Clock       : cpu_addr[11]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'cpu_addr[10]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 26.42 MHz ( period = 37.844 ns )
+From           : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[1]
+To             : cache_row:inst67|latch_4_zero_init:inst90|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[1]
+From Clock     : cpu_addr[10]
+To Clock       : cpu_addr[10]
+Failed Paths   : 0
+
+Type           : Clock Hold: 'clk'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : counter_8_alr:inst125|lpm_counter:lpm_counter_component|cntr_7nj:auto_generated|safe_q[5]
+To             : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[1]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 283
+
+Type           : Clock Hold: 'ctrl[3]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : latch_3:inst182|lpm_latch:lpm_latch_component|latches[2]
+To             : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[1]
+From Clock     : ctrl[3]
+To Clock       : ctrl[3]
+Failed Paths   : 208
+
+Type           : Clock Hold: 'cpu_addr[2]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : cache_row:inst66|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[2]
+To Clock       : cpu_addr[2]
+Failed Paths   : 99
+
+Type           : Clock Hold: 'ctrl[0]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : cache_row:inst66|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : ctrl[0]
+To Clock       : ctrl[0]
+Failed Paths   : 119
+
+Type           : Clock Hold: 'cpu_addr[3]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : cache_row:inst66|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[3]
+To Clock       : cpu_addr[3]
+Failed Paths   : 97
+
+Type           : Clock Hold: 'cpu_addr[5]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : cache_row:inst66|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[5]
+To Clock       : cpu_addr[5]
+Failed Paths   : 97
+
+Type           : Clock Hold: 'cpu_addr[7]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : cache_row:inst66|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[7]
+To Clock       : cpu_addr[7]
+Failed Paths   : 97
+
+Type           : Clock Hold: 'cpu_addr[9]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : cache_row:inst66|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[9]
+To Clock       : cpu_addr[9]
+Failed Paths   : 97
+
+Type           : Clock Hold: 'cpu_addr[4]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : cache_row:inst66|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[4]
+To Clock       : cpu_addr[4]
+Failed Paths   : 97
+
+Type           : Clock Hold: 'cpu_addr[6]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : cache_row:inst66|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[6]
+To Clock       : cpu_addr[6]
+Failed Paths   : 97
+
+Type           : Clock Hold: 'cpu_addr[8]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : cache_row:inst66|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+To             : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[2]
+From Clock     : cpu_addr[8]
+To Clock       : cpu_addr[8]
+Failed Paths   : 97
+
+Type           : Clock Hold: 'cpu_addr[10]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : cache_row:inst67|latch_4_zero_init:inst90|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[1]
+To             : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[1]
+From Clock     : cpu_addr[10]
+To Clock       : cpu_addr[10]
+Failed Paths   : 96
+
+Type           : Clock Hold: 'cpu_addr[11]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : cache_row:inst67|latch_4_zero_init:inst90|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[1]
+To             : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[1]
+From Clock     : cpu_addr[11]
+To Clock       : cpu_addr[11]
+Failed Paths   : 96
+
+Type           : Clock Hold: 'cpu_addr[12]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : cache_row:inst67|latch_4_zero_init:inst90|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[1]
+To             : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[1]
+From Clock     : cpu_addr[12]
+To Clock       : cpu_addr[12]
+Failed Paths   : 96
+
+Type           : Clock Hold: 'cpu_addr[13]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : cache_row:inst67|latch_4_zero_init:inst90|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[1]
+To             : cache_row:inst64|latch_4_zero_init:inst89|lpm_counter:lpm_counter_component|cntr_lki:auto_generated|safe_q[1]
+From Clock     : cpu_addr[13]
+To Clock       : cpu_addr[13]
+Failed Paths   : 96
 
 Type           : Total number of failed paths
 Slack          : 
@@ -40,7 +350,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 0
+Failed Paths   : 1772
 
 --------------------------------------------------------------------------------------
 
